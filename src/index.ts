@@ -10,7 +10,7 @@ fs.readFile( path.join( __dirname, '../assets/minimalWall.ifc'), async (err, dat
     let rawFileData = new Uint8Array(data);
 
     await ifcApi.Init();
-    ifcApi.SetWasmPath( path.join( __dirname, "../assets/") ); 
+    ifcApi.SetWasmPath( path.join( __dirname, "../assets/wasm/") ); 
 
     let modelID = ifcApi.OpenModel(rawFileData);
     console.log( modelID ); 
