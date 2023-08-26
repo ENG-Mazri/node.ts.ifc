@@ -1,0 +1,21 @@
+{
+  "name": "node.ts.ifc",
+  "version": "1.0.0",
+  "description": "Node app for writing ifc files",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon src/index.ts",
+    "build": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "web-ifc": "^0.0.42"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6"
+  }
+}
