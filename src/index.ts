@@ -1,5 +1,5 @@
 import * as WebIFC from "web-ifc";
-import * as fs from 'fs'
+import * as fs from 'fs';
 import * as path from "path";
 
 const ifcApi = new WebIFC.IfcAPI(); 
@@ -13,5 +13,6 @@ fs.readFile( path.join( __dirname, '../assets/minimalWall.ifc'), async (err, dat
     ifcApi.SetWasmPath( path.join( __dirname, "../assets/wasm/") ); 
 
     let modelID = ifcApi.OpenModel(rawFileData);
-    console.log( modelID ); 
+    console.log( modelID );
+    
 })
