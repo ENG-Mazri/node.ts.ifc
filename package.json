@@ -15,7 +15,6 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "uuid": "^9.0.0",
-    "uuid-base64": "^1.0.0",
     "web-ifc": "^0.0.42"
   },
   "devDependencies": {
